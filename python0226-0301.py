@@ -132,10 +132,10 @@ else:
 # 조건 3. elif 문을 사용하여 프로그램 작성
 print()
 
-# 사용자 입력 받은 숫자는 문자열 형임
+# 사용자 입력 받은 숫자는 무조건 문자열 형임
 # 형 변환 : int(score)
 
-score = input("점수를 입력하세요 : ")
+score = input("점수를 입력하세요 : ") # 사용자 입력을 받는 부분
 score = int(score)
 
 if score >= 95:
